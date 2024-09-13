@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Bitácora</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <div id="logo-container">
+                <img id="logo" src="/static/logo.png" alt="Logo">
+            </div>
+            <h1>Registro de Bitácora</h1>
+        </header>
+        <main>
+            <div id="question-container">
+                <p id="question">¿Cuál es la Compañía?</p>
+            </div>
+            <div id="responses-container">
+                <p>Respuestas:</p>
+                <div id="responses"></div>
+            </div>
+            <div id="camera-container">
+                <div class="button-group">
+                    <button id="start-camera">Iniciar cámara</button>
+                    <button id="take-photo">Tomar foto</button>
+                </div>
+                <video id="video" width="320" height="240" autoplay></video>
+                <canvas id="canvas" width="320" height="240"></canvas>
+            </div>
+            <div class="centrar">
+                <button id="save-record">Guardar registro</button>
+            </div>
+        </main>
+        <script src="/static/script.js"></script>
+    </div>
+</body>
+</html>

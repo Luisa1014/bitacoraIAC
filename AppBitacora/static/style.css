@@ -1,0 +1,102 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#logo-container {
+    margin-bottom: 10px;
+}
+
+#logo {
+    max-width: 140px;
+    height: auto;
+}
+
+#question-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#responses-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para los botones */
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+/* Color del botón "Iniciar cámara" */
+#start-camera {
+    background-color: #f8b126; /* Color azul */
+    color: white;
+}
+
+#start-camera:hover {
+    background-color: #f8b126; /* Azul más oscuro en hover */
+}
+
+/* Color del botón "Tomar foto" */
+#take-photo {
+    background-color: #f8b126; /* Color verde */
+    color: white;
+}
+
+#take-photo:hover {
+    background-color: #e9c784; /* Color verde */
+
+}
+
+/* Color del botón "Guardar registro" */
+#save-record {
+    align-items: center;
+    background-color: #f8b126; 
+    color: white;
+}
+
+#save-record:hover {
+    background-color: #e9c784; 
+    text-align: center;
+}
+
+.centrar{
+    text-align: center;
+}
+
+/* Ajustes adicionales de diseño */
+.button-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#video, #canvas {
+    margin-bottom: 10px;
+}
